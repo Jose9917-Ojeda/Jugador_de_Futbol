@@ -1,0 +1,59 @@
+public class Main {
+    public static void main(String[] args) {
+        Jugador_de_Futbol Obj = new Jugador_de_Futbol();
+        Obj.setNombre ("Leonel Messi");
+        Obj.setEdad (37);
+        Obj.setEstatura (170);
+        Obj.setPeso (72);
+        Obj.setNacionalidad ("Argentino");
+        Obj.setPosicion ("Delantero");
+        Obj.setClub ("Inter de Miami");
+
+        Jugador_de_Futbol Obj0 = new Jugador_de_Futbol();
+        Obj0.setNombre ("Daniel Muñoz");
+        Obj0.setEdad (26);
+        Obj0.setEstatura (181);
+        Obj0.setPeso(73);
+        Obj0.setNacionalidad ("Colombiano");
+        Obj0.setPosicion ("Defensa");
+        Obj0.setClub ("Crystal Palace");
+
+        Jugador_de_Futbol Obj1 = new Jugador_de_Futbol();
+        Obj1.setNombre ("Jordan Pickford");
+        Obj1.setEdad (31);
+        Obj1.setEstatura (185);
+        Obj1.setPeso (77);
+        Obj1.setNacionalidad ("Ingles");
+        Obj1.setPosicion ("Arquero");
+        Obj1.setClub ("Everton F.C.");
+
+        System.out.println("Jugador1:");
+        System.out.println("Nombre:"+ Obj.getNombre());
+        System.out.println("Edad:" + Obj.getEdad());
+        System.out.println("Estatura:" +Obj.getEstatura());
+        System.out.println("Peso:" +Obj.getPeso());
+        System.out.println("Nacionalidad:" +Obj.getNacionalidad());
+        System.out.println("Posicion:" + Obj.getPosicion());
+        System.out.println("Club Actual:" +Obj.getClub());
+
+
+        System.out.println("Jugador2:");
+        System.out.println("Nombre:"+ Obj0.getNombre());
+        System.out.println("Edad:" + Obj0.getEdad());
+        System.out.println("Estatura:" +Obj0.getEstatura());
+        System.out.println("Peso:" +Obj0.getPeso());
+        System.out.println("Nacionalidad:" +Obj0.getNacionalidad());
+        System.out.println("Posicion:" + Obj0.getPosicion());
+        System.out.println("Club Actual:" +Obj0.getClub());
+
+
+        System.out.println("Jugador3:");
+        System.out.println("Nombre:"+ Obj1.getNombre());
+        System.out.println("Edad:" + Obj1.getEdad());
+        System.out.println("Estatura:" +Obj1.getEstatura());
+        System.out.println("Peso:" +Obj1.getPeso());
+        System.out.println("Nacionalidad:" +Obj1.getNacionalidad());
+        System.out.println("Posicion:" + Obj1.getPosicion());
+        System.out.println("Club Actual:" +Obj1.getClub());
+    }
+}
